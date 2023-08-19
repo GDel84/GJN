@@ -16,6 +16,10 @@ body {
 	overflow-x: hidden;
 	background-color: #596065;
 }
+a {
+	text-decoration: none; /* Supprimer le soulignement */
+	color: inherit; /* Utiliser la couleur du texte parent */
+  }
 
 ul {
 	list-style: none;
@@ -381,6 +385,7 @@ p {
 	margin: auto;
 	font-size: 16px;
 	width: 90%;
+	padding-top: 2%;
 }
 
 #testimonial {
@@ -797,6 +802,11 @@ footer .connect-us ul li a {
 footer .connect-us ul li a:hover {
 	background-color: #f7c552;
 }
+.mention{
+	max-width: 75%;
+	padding-top: 5%;
+	margin: auto;
+}
 
 
 /* RESPONSIVE */
@@ -862,6 +872,11 @@ footer .connect-us ul li a:hover {
 	#blog .section-heading p {
 		padding: 0px 30px;
 	}
+	.non-clickable {
+		pointer-events: none;
+		text-decoration: none;
+		color: gray; /* Ou toute autre couleur que vous préférez */
+	  }
 
 	.tabs {
 		padding: 0px 45px;
@@ -941,6 +956,9 @@ footer .connect-us ul li a:hover {
 	}
 	.who{
 		font-size: 12px;
+	}
+	.mention{
+		padding-top: 8%;
 	}
 
 }
